@@ -1,4 +1,4 @@
-f = open("../Day 2/input.txt", "r")
+f = open("input.txt", "r")
 ip = f.read()
 total = 0
 for line in ip.split():

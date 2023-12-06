@@ -22,7 +22,7 @@ def find_digit(line , pos , module):
                 if j == len(characterised_digit[i]) - 1:
                     return i + 1
     return -1
-f = open("../Day 2/input.txt", "r")
+f = open("input.txt", "r")
 ip = f.read()
 #ip = input()
 total = 0
